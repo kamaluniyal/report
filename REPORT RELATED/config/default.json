@@ -1,0 +1,22 @@
+{
+  "projectName":"TAF_API",
+  "intranet": {
+    "url": "https://intranet.mgmt.local/D/PTC1/TAFTestPage"
+  },
+  "browser": "phantomjs",
+  "mochaTimeoutMS": 50000,
+  "log4jPath": ".\\log\\",
+  "textFilePath":"",
+  "excelPath":"",
+  "pdfPath":".\\src\\example\\datafile\\Show.pdf",
+
+  "reporter":{
+    "reportDir":"OutputDir",
+    "reportFilename":"TAF_API",
+    "reportTitle":"TAF",
+    "reportPageTitle":"",
+    "inlineAssets":true,
+    "autoOpen":false
+
+  }
+}
